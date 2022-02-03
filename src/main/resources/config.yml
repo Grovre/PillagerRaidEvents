@@ -1,0 +1,12 @@
+AnnounceToWorld: true # true/false stating whether to let all players know that a raid is being started
+AnnounceInDistance: true # Overridden by AnnounceToWorld unless that's false. If true, will only announce to all players within DistanceToAnnounce. If false, no announcement to anybody will be made.
+DistanceToAnnounce: 5000
+
+AnnounceNewRaid: true # true/false if you want to announce RaidStartMessage when a raid starts
+RaidStartMessage: '%p started a pillager raid on a village at %l!' # The message that's broadcast when a raid starts. The message will be yellow. %p = player, %l = location ex: '(x, z)', %w = number of waves, %o = omen level
+
+AnnounceNewWave: true # true/false for announcing the NewWaveMessage everytime a new pillager wave starts
+NewWaveMessage: 'Another wave is coming!' # Message to announce on new wave. %g = amount of groups
+
+AnnounceRaidFinish: true # true/false for announcing when a raid is finished
+RaidFinishMessage: 'The raid has finished in %f!' # Message announced when the raid is finished. %p = participants ex: (PoptartFromPluto, JappaCheese, _Dimitrov, BorghildProject) (Parentheses not included)

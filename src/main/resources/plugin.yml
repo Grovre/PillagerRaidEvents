@@ -1,0 +1,7 @@
+name: PillagerRaidEvents
+version: '${project.version}'
+main: me.grovre.pillagerraidevents.PillagerRaidEvents
+api-version: 1.18
+authors: [ PoptartFromPluto ]
+description: Makes pillager raids a server-wide event
+website: https://github.com/grovre
